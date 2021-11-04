@@ -1,0 +1,12 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/forms";;
+
+
+$background: lightblue;
+
+body {
+    background: linear-gradient(to right, white, $background);
+}
